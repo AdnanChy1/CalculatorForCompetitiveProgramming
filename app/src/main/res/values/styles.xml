@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CalcButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:backgroundTint">#1DE9B6</item> <!-- Grey Fill -->
+        <item name="android:textColor">#161515</item> <!-- Black Text -->
+        <item name="android:textSize">10sp</item> <!-- Text Size -->
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A7FFEB"
+    android:gravity="end"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".advanced_mode">
+
+    <!-- Add your views here -->
+
+    <EditText
+        android:id="@+id/et_first_num"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#DAE6E7"
+        android:backgroundTintMode="screen"
+        android:ems="10"
+        android:hint="Enter First Number"
+        android:inputType="text"
+        android:padding="16dp"
+        android:textColor="#1C1D1D"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_second_num"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:background="#DEE5E6"
+        android:backgroundTintMode="screen"
+        android:ems="10"
+        android:hint="Enter Second Number"
+        android:inputType="text"
+        android:padding="16dp"
+        android:textColor="#1D1D1D"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#D7E6E6"
+        android:hint="Result will be shown here"
+        android:textColor="#161515"
+        android:textSize="24sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/et_opt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Choose One of the following Options "
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <GridLayout
+        android:id="@+id/buttonGrid"
+        android:layout_width="match_parent"
+        android:layout_height="363dp"
+        android:columnCount="5"
+        android:padding="10dp">
+
+        <!-- Row 1 -->
+        <Button
+            android:id="@+id/btn_sin"
+            style="@style/CalcButton"
+            android:text="Sin" />
+
+        <Button
+            android:id="@+id/btn_cos"
+            style="@style/CalcButton"
+            android:text="cos" />
+
+        <Button
+            android:id="@+id/btn_tan"
+            style="@style/CalcButton"
+            android:text="tan" />
+
+        <Button
+            android:id="@+id/btn_log2"
+            style="@style/CalcButton"
+            android:text="log2" />
+
+        <Button
+            android:id="@+id/btn_log10"
+            style="@style/CalcButton"
+            android:text="log10"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/btn_expo"
+            style="@style/CalcButton"
+            android:text="^"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_gcd"
+            style="@style/CalcButton"
+            android:text="gcd" />
+
+        <Button
+            android:id="@+id/btn_lcm"
+            style="@style/CalcButton"
+            android:text="lcm" />
+
+        <!-- Row 3 -->
+        <Button
+            android:id="@+id/btn_sqrt"
+            style="@style/CalcButton"
+            android:text="Sqrt"
+            android:textSize="9sp" />
+
+        <Button
+            android:id="@+id/btn_fact"
+            style="@style/CalcButton"
+            android:text="!"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btn_ncr"
+            style="@style/CalcButton"
+            android:text="nCr" />
+
+        <Button
+            android:id="@+id/btn_npr"
+            style="@style/CalcButton"
+            android:text="npr" />
+
+        <!-- Row 4 -->
+        <Button
+            android:id="@+id/btn_and"
+            style="@style/CalcButton"
+            android:text="AND" />
+
+        <Button
+            android:id="@+id/btn_or"
+            style="@style/CalcButton"
+            android:text="or" />
+
+        <Button
+            android:id="@+id/btn_xor"
+            style="@style/CalcButton"
+            android:text="xor" />
+
+        <Button
+            android:id="@+id/btn_bin"
+            style="@style/CalcButton"
+            android:text="bin" />
+
+        <!-- Row 5 -->
+        <Button
+            android:id="@+id/btn_hex"
+            style="@style/CalcButton"
+            android:text="hex" />
+
+        <Button
+            android:id="@+id/btn_oct"
+            style="@style/CalcButton"
+            android:text="oct" />
+
+        <Button
+            android:id="@+id/btn_mod"
+            style="@style/CalcButton"
+            android:text="mod" />
+
+        <Button
+            android:id="@+id/btn_clear"
+            style="@style/CalcButton"
+            android:text="clr" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btn_moreoptions"
+        style="@style/CalcButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prime Number Generator" />
+
+
+</LinearLayout>
